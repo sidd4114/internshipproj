@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Tenor+Sans&display=swap');
+
+.main-container{
+    
+    position: relative;
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+   margin-bottom: 20px;
+   font-family: 'Plus Jakarta Sans', sans-serif;
+    
+    
+}
+.contentpara{
+    width: 320px;
+}
+.content {
+    margin-bottom: 20px; 
+    padding: 20px;
+}
+.content h1{
+   margin-bottom: 5px;
+}
+.content p{
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 35px;
+}
+.main-container p{
+    color: #999C9F;
+}
+
+.button{
+    height: 55px;
+    border: none;
+    border-radius: 7px;
+    font-weight:600;
+    text-align: center;
+    font-size: 17px;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+.button-container{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    
+   
+}
+
+#button1{
+    background-color: #6c25ff;
+    color: white;
+    
+}
+#button2{
+    background-color: #cebafb;
+    color: black;
+    
+}

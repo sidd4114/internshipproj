@@ -1,0 +1,55 @@
+.signin-container {
+    
+    margin: 0 auto;
+    padding: 20px 15px;
+
+  }
+.theory1{
+    width: 300px;
+    margin-bottom: 10px;
+}
+.theory2{
+    width:310px;
+    font-size: 20px;
+    color: #999c9f;
+    font-weight: 600;
+    margin-top: 10px;
+}
+  
+
+  .form-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+  label {
+    font-size: 14px;
+    color: #6c25ff; 
+    margin-bottom: 5px;
+    font-weight: 600; 
+  }
+  
+ 
+  input {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  
+  .login-button {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    background-color: #ccc; 
+    border: none;
+    border-radius: 5px;
+    
+    text-align: center;
+  }
+  
