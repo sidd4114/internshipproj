@@ -1,7 +1,12 @@
 import React from 'react'
 import './EnterDetails.css'
+import { useNavigate } from 'react-router-dom'
 
 const EnterDetails = () => {
+  const navigate = useNavigate();
+  const gotosettings = () => {
+    navigate("/settings");
+  };
   return (
     <div className='detailscontainer'>
         <h1>Create your PopX account</h1>
@@ -43,7 +48,7 @@ const EnterDetails = () => {
           </label>
         </div>
         
-        <button type="submit" className='createaccbut'>Create Account</button>
+        <button type="submit" className='createaccbut' onClick={gotosettings}>Create Account</button>
       </form>
     </div>
   )
