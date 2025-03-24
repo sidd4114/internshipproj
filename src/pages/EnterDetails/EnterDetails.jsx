@@ -4,7 +4,8 @@ import { useNavigate } from 'react-router-dom'
 
 const EnterDetails = () => {
   const navigate = useNavigate();
-  const gotosettings = () => {
+  const gotosettings = (event) => {
+    event.preventDefault();
     navigate("/settings");
   };
   return (
