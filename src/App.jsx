@@ -1,6 +1,6 @@
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
-import LandingPage from './pages/landingPage/landingPage'; // Use uppercase 'LandingPage'
+import LandingPage from './pages/LandingPage/LandingPage'
 import Signin from './pages/Signin/Signin';
 import EnterDetails from './pages/EnterDetails/EnterDetails';
 import AccountSettings from './pages/AccountSettings/AccountSettings';
